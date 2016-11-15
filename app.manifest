@@ -1,0 +1,26 @@
+{
+  "id":          "sdk.test.search",
+  "name":        "TEST - Search",
+  "view":        "view.js",
+  "permissions": [],
+  "categoryId":  "WORKSPACE",
+  "date":        "2016-11-14",
+  "version":     "1.0.0",
+  "screens":     [
+    {
+      "id":       "search-test",
+      "chambers": [
+        {
+          "id":      "search-test-chamber",
+          "js":      "TestSearchChamber.js",
+          "autorun": true,
+          "focus":   true,
+          "search":  {
+            "display":     true,
+            "placeholder": "Search for something..."
+          }
+        }
+      ]
+    }
+  ]
+}
